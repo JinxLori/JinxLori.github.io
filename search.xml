@@ -8,9 +8,21 @@
       <link href="2020/12/16/genymobile-scrcpy-android-usb/"/>
       <url>2020/12/16/genymobile-scrcpy-android-usb/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="scrcpy简介："><a href="#scrcpy简介：" class="headerlink" title="scrcpy简介："></a>scrcpy简介：</h3><p>此项目为开源项目，Github地址：<a href="https://github.com/Genymobile/scrcpy">Genymobile/scrcpy: Display and control your Android device</a></p><p>Windows 下载：<a href="https://link.zhihu.com/?target=https://github.com/Genymobile/scrcpy/releases/download/v1.16/scrcpy-win64-v1.16.zip">scrcpy-win64-v1.16.zip</a></p><h3 id="scrcpy使用："><a href="#scrcpy使用：" class="headerlink" title="scrcpy使用："></a>scrcpy使用：</h3><h4 id="usb投屏："><a href="#usb投屏：" class="headerlink" title="usb投屏："></a>usb投屏：</h4><p>电脑端完成配置后，我们还需要在手机端开启 <code>开发者选项</code> 及 <code>USB 调试</code>。然后使用数据线将手机和电脑连接并允许 USB 调试，双击解压得到的 <strong>scrcpy.exe</strong> 文件，即可进行有线投屏。</p><h4 id="无线投屏："><a href="#无线投屏：" class="headerlink" title="无线投屏："></a>无线投屏：</h4><ol><li><p>确保 PC 和手机处于同一局域网中</p></li><li><p>打开 PowerShell (~ cmd)，依次操作并输入代码</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># a.将代码目录定位到 scrcpy 文件夹</span><span class="token builtin class-name">cd</span> D:<span class="token punctuation">\</span>Libraries<span class="token punctuation">\</span>Desktop<span class="token punctuation">\</span>scrcpy-win64-v1.16​<span class="token comment"># b.在手机端开启「开发者选项」及「USB 调试」，然后使用数据线将手机和电脑连接并允许 USB 调试，开启手机端口</span><span class="token comment"># 如果本行显示 no device 或未启动 adb，需检查「USB 调试」是否开启。</span><span class="token comment"># 此外，一些手机需选择「文件传输」模式方能使用 adb。</span>.<span class="token punctuation">\</span>adb tcpip <span class="token number">5555</span>​<span class="token comment"># c.拔出手机数据线，开始无线投屏。(192.168.2.234 为手机端 ip，需更改)</span>.<span class="token punctuation">\</span>adb connect <span class="token number">192.168</span>.2.234:5555​<span class="token comment"># d.启动 scrcpy.exe</span>.<span class="token punctuation">\</span>scrcpy<span class="token comment"># 如有报错，可启动低分辨率投屏</span>.<span class="token punctuation">\</span>scrcpy -m <span class="token number">1920</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>手机IP可通过手机的<code>状态信息</code>查看</p></li></ol><p>正如预期的那样，性能与USB不同，默认的scrcpy比特率是8Mbps，这对于Wi-Fi连接来说可能太多了。根据使用情况，降低比特率和分辨率可能是一个很好的折中方案。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">scrcpy --bit-rate 2M --max-size <span class="token number">800</span><span class="token comment"># 或者简写</span>scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>]]></content>
       
       
+      <categories>
+          
+          <category> Android </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
       
     </entry>
     
