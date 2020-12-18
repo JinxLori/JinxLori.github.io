@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2020-12-17T07:27:24.428Z</updated>
+  <updated>2020-12-18T11:28:08.117Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode设置网页代码实时预览 LiveServer</title>
+    <link href="https://jinxlori.github.io/2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/"/>
+    <id>https://jinxlori.github.io/2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/</id>
+    <published>2020-12-18T11:26:49.000Z</published>
+    <updated>2020-12-18T11:28:08.117Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="vscode,html,tool" scheme="https://jinxlori.github.io/categories/vscode-html-tool/"/>
+    
+    
+    <category term="vscode,html,tool" scheme="https://jinxlori.github.io/tags/vscode-html-tool/"/>
+    
+  </entry>
   
   <entry>
     <title>vue public constants and methods</title>
