@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>鑫鑫鑫</title>
+  
+  <subtitle>JinxLori/wsh</subtitle>
+  <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://jinxlori.github.io/"/>
+  <updated>2020-12-17T07:27:24.428Z</updated>
+  <id>https://jinxlori.github.io/</id>
+  
+  <author>
+    <name>wsh</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue public constants and methods</title>
+    <link href="https://jinxlori.github.io/2020/12/17/vue-public-constants-and-methods/"/>
+    <id>https://jinxlori.github.io/2020/12/17/vue-public-constants-and-methods/</id>
+    <published>2020-12-17T07:13:55.000Z</published>
+    <updated>2020-12-17T07:27:24.428Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在使用vue的过程中，会遇到一些可以复用或者多次调用的常量以及函数方法，为了减小代码量以及后期的维护，可以将这些常量方法实现共用。&lt;/p&gt;
+&lt;p&gt;方法有很多，这里记录一种自己比较常用的。&lt;/p&gt;
+&lt;h5 id=&quot;在src文件夹下创建utils文件夹&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Genymobile/scrcpy Android USB</title>
+    <link href="https://jinxlori.github.io/2020/12/16/genymobile-scrcpy-android-usb/"/>
+    <id>https://jinxlori.github.io/2020/12/16/genymobile-scrcpy-android-usb/</id>
+    <published>2020-12-16T07:24:49.000Z</published>
+    <updated>2020-12-16T10:03:38.656Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;scrcpy简介：&quot;&gt;&lt;a href=&quot;#scrcpy简介：&quot; class=&quot;headerlink&quot; title=&quot;scrcpy简介：&quot;&gt;&lt;/a&gt;scrcpy简介：&lt;/h3&gt;&lt;p&gt;此项目为开源项目，Github地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Android" scheme="https://jinxlori.github.io/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Django运行环境配置记录</title>
+    <link href="https://jinxlori.github.io/2020/12/08/django-yun-xing-huan-jing-pei-zhi-ji-lu/"/>
+    <id>https://jinxlori.github.io/2020/12/08/django-yun-xing-huan-jing-pei-zhi-ji-lu/</id>
+    <published>2020-12-08T07:53:07.000Z</published>
+    <updated>2020-12-08T08:51:06.587Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;环境配置：&quot;&gt;&lt;a href=&quot;#环境配置：&quot; class=&quot;headerlink&quot; title=&quot;环境配置：&quot;&gt;&lt;/a&gt;环境配置：&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;h4 id=&quot;安装Python&quot;&gt;&lt;a href=&quot;#安装Python&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Django" scheme="https://jinxlori.github.io/categories/Django/"/>
+    
+    
+    <category term="Django" scheme="https://jinxlori.github.io/tags/Django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jinxlori.github.io/2020/12/08/hello-world/"/>
+    <id>https://jinxlori.github.io/2020/12/08/hello-world/</id>
+    <published>2020-12-08T04:45:32.326Z</published>
+    <updated>2020-12-08T04:45:32.327Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
