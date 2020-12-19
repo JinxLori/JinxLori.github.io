@@ -8,19 +8,27 @@
       <link href="2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/"/>
       <url>2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/sinat_34104446/article/details/83051052">https://blog.csdn.net/sinat_34104446/article/details/83051052</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h3><p>在VSCode中配置一个网页服务器，修改完代码之后只需要保存代码浏览器就可以实时预览。</p><p>安装之后可以打开一个简单的服务器。而且还会自动更新。</p><h3 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h3><p>打开vscode扩展程序，输入Live Server ,安装。</p><p>安装完成需要重启软件插件才能生效。</p><p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_19/image-20201219182430544.png" alt="image-20201219182430544"></p><h3 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h3><p>安装成功重启之后，打开项目，</p><p>我们可以在状态栏上看到一个Go Live，单击会自动打开浏览器并显示</p><p>如果没有状态栏上，也可以在文件上单击右键，选择Open With Live Server这一项</p><p>接下来修改代码我们只需要ctrl+S保存修改后的代码，浏览器自动刷新，</p><p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_19/image-20201219182330201.png" alt="image-20201219182330201"></p><p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_19/image-20201219182704621.png" alt="image-20201219182704621"></p>]]></content>
       
       
       <categories>
           
-          <category> vscode,html,tool </category>
+          <category> vscode </category>
+          
+          <category> html </category>
+          
+          <category> tool </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> vscode,html,tool </tag>
+            <tag> vscode </tag>
+            
+            <tag> html </tag>
+            
+            <tag> tool </tag>
             
         </tags>
       

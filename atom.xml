@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2020-12-18T11:28:08.117Z</updated>
+  <updated>2020-12-19T10:40:27.305Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -21,23 +21,31 @@
     <link href="https://jinxlori.github.io/2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/"/>
     <id>https://jinxlori.github.io/2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/</id>
     <published>2020-12-18T11:26:49.000Z</published>
-    <updated>2020-12-18T11:28:08.117Z</updated>
+    <updated>2020-12-19T10:40:27.305Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h3 id=&quot;描述：&quot;&gt;&lt;a href=&quot;#描述：&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="vscode,html,tool" scheme="https://jinxlori.github.io/categories/vscode-html-tool/"/>
+    <category term="vscode" scheme="https://jinxlori.github.io/categories/vscode/"/>
+    
+    <category term="html" scheme="https://jinxlori.github.io/categories/vscode/html/"/>
+    
+    <category term="tool" scheme="https://jinxlori.github.io/categories/vscode/html/tool/"/>
     
     
-    <category term="vscode,html,tool" scheme="https://jinxlori.github.io/tags/vscode-html-tool/"/>
+    <category term="vscode" scheme="https://jinxlori.github.io/tags/vscode/"/>
+    
+    <category term="html" scheme="https://jinxlori.github.io/tags/html/"/>
+    
+    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
     
   </entry>
   
