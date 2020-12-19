@@ -73,12 +73,16 @@
           
           <category> Android </category>
           
+          <category> tool </category>
+          
       </categories>
       
       
         <tags>
             
             <tag> Android </tag>
+            
+            <tag> tool </tag>
             
         </tags>
       
