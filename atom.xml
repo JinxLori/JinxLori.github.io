@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2020-12-19T10:40:27.305Z</updated>
+  <updated>2020-12-19T11:17:58.152Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>资源网站合集（持续更新）</title>
+    <link href="https://jinxlori.github.io/2020/12/19/zi-yuan-wang-zhan-he-ji/"/>
+    <id>https://jinxlori.github.io/2020/12/19/zi-yuan-wang-zhan-he-ji/</id>
+    <published>2020-12-19T10:50:43.000Z</published>
+    <updated>2020-12-19T11:17:58.152Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;综合网站：&quot;&gt;&lt;a href=&quot;#综合网站：&quot; class=&quot;headerlink&quot; title=&quot;综合网站：&quot;&gt;&lt;/a&gt;综合网站：&lt;/h3&gt;&lt;h5 id=&quot;Learn-X-in-Y-minutes&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="tool" scheme="https://jinxlori.github.io/categories/tool/"/>
+    
+    
+    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
+    
+  </entry>
   
   <entry>
     <title>VSCode设置网页代码实时预览 LiveServer</title>
