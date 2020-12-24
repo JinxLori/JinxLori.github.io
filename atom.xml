@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2020-12-19T12:18:54.010Z</updated>
+  <updated>2020-12-24T08:27:50.896Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jeecg-boot多数据源配置及使用</title>
+    <link href="https://jinxlori.github.io/2020/12/24/jeecg-boot-duo-shu-ju-yuan-pei-zhi-ji-shi-yong/"/>
+    <id>https://jinxlori.github.io/2020/12/24/jeecg-boot-duo-shu-ju-yuan-pei-zhi-ji-shi-yong/</id>
+    <published>2020-12-24T08:19:29.000Z</published>
+    <updated>2020-12-24T08:27:50.896Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在使jeecg-boot时，因为项目需求会涉及到多个数据源。或者仅仅只是因为想要把jeecg-boot框架的数据库与项目的数据库分离开，便于管理。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="jeecg-boot" scheme="https://jinxlori.github.io/categories/jeecg-boot/"/>
+    
+    <category term="java" scheme="https://jinxlori.github.io/categories/jeecg-boot/java/"/>
+    
+    
+    <category term="jeecg-boot" scheme="https://jinxlori.github.io/tags/jeecg-boot/"/>
+    
+    <category term="java" scheme="https://jinxlori.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>资源网站合集（持续更新）</title>

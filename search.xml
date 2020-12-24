@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>jeecg-boot多数据源配置及使用</title>
+      <link href="2020/12/24/jeecg-boot-duo-shu-ju-yuan-pei-zhi-ji-shi-yong/"/>
+      <url>2020/12/24/jeecg-boot-duo-shu-ju-yuan-pei-zhi-ji-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<p>在使jeecg-boot时，因为项目需求会涉及到多个数据源。或者仅仅只是因为想要把jeecg-boot框架的数据库与项目的数据库分离开，便于管理。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jeecg-boot </category>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> jeecg-boot </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>资源网站合集（持续更新）</title>
       <link href="2020/12/19/zi-yuan-wang-zhan-he-ji/"/>
       <url>2020/12/19/zi-yuan-wang-zhan-he-ji/</url>
