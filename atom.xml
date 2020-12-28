@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2020-12-24T08:27:50.896Z</updated>
+  <updated>2020-12-28T08:34:49.963Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue接受base64转图片验证码</title>
+    <link href="https://jinxlori.github.io/2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/"/>
+    <id>https://jinxlori.github.io/2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/</id>
+    <published>2020-12-28T08:33:01.000Z</published>
+    <updated>2020-12-28T08:34:49.963Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>jeecg-boot多数据源配置及使用</title>
