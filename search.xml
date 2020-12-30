@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>json-server,指定一个json文件作为API数据源</title>
+      <link href="2020/12/30/json-server-zhi-ding-yi-ge-json-wen-jian-zuo-wei-api-shu-ju-yuan/"/>
+      <url>2020/12/30/json-server-zhi-ding-yi-ge-json-wen-jian-zuo-wei-api-shu-ju-yuan/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://segmentfault.com/a/1190000022825736">https://segmentfault.com/a/1190000022825736</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> json </category>
+          
+          <category> tool </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tool </tag>
+            
+            <tag> json </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vue接受base64转图片验证码</title>
       <link href="2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/"/>
       <url>2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/</url>
