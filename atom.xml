@@ -100,7 +100,7 @@
     <link href="https://jinxlori.github.io/2020/12/24/jeecg-boot-duo-shu-ju-yuan-pei-zhi-ji-shi-yong/"/>
     <id>https://jinxlori.github.io/2020/12/24/jeecg-boot-duo-shu-ju-yuan-pei-zhi-ji-shi-yong/</id>
     <published>2020-12-24T08:19:29.000Z</published>
-    <updated>2020-12-24T08:27:50.896Z</updated>
+    <updated>2021-01-07T10:01:53.623Z</updated>
     
     
       
@@ -108,7 +108,7 @@
         
         
     <summary type="html">&lt;p&gt;在使jeecg-boot时，因为项目需求会涉及到多个数据源。或者仅仅只是因为想要把jeecg-boot框架的数据库与项目的数据库分离开，便于管理。&lt;/p&gt;
-</summary>
+&lt;p&gt;&lt;a</summary>
         
       
     
