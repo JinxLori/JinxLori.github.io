@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>使用vuex-persistedstate维持store的状态并加密</title>
+      <link href="2021/01/07/shi-yong-vuex-persistedstate-wei-chi-store-de-zhuang-tai-bing-jia-mi/"/>
+      <url>2021/01/07/shi-yong-vuex-persistedstate-wei-chi-store-de-zhuang-tai-bing-jia-mi/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://chiafangsung.medium.com/%E4%BD%BF%E7%94%A8-vuex-persistedstate-%E7%B6%AD%E6%8C%81-vuex-%E7%8B%80%E6%85%8B-f0d7c522c73a">https://chiafangsung.medium.com/%E4%BD%BF%E7%94%A8-vuex-persistedstate-%E7%B6%AD%E6%8C%81-vuex-%E7%8B%80%E6%85%8B-f0d7c522c73a</a></p><p><a href="https://github.com/robinvdvleuten/vuex-persistedstate">https://github.com/robinvdvleuten/vuex-persistedstate</a></p><p><a href="https://www.npmjs.com/package/secure-ls">https://www.npmjs.com/package/secure-ls</a></p><p><a href="https://blog.csdn.net/qq_32674347/article/details/105807542">https://blog.csdn.net/qq_32674347/article/details/105807542</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>json-server,指定一个json文件作为API数据源</title>
       <link href="2020/12/30/json-server-zhi-ding-yi-ge-json-wen-jian-zuo-wei-api-shu-ju-yuan/"/>
       <url>2020/12/30/json-server-zhi-ding-yi-ge-json-wen-jian-zuo-wei-api-shu-ju-yuan/</url>
