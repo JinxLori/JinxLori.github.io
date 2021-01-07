@@ -175,11 +175,11 @@
     <category term="tool" scheme="https://jinxlori.github.io/categories/vscode/html/tool/"/>
     
     
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
-    
     <category term="vscode" scheme="https://jinxlori.github.io/tags/vscode/"/>
     
     <category term="html" scheme="https://jinxlori.github.io/tags/html/"/>
+    
+    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
     
   </entry>
   
@@ -233,9 +233,9 @@
     <category term="tool" scheme="https://jinxlori.github.io/categories/Android/tool/"/>
     
     
-    <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
-    
     <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
+    
+    <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
     
   </entry>
   

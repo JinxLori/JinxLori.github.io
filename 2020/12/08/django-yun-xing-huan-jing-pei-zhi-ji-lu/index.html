@@ -594,17 +594,14 @@
 <li><h4 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a>安装Python</h4><p>下载安装包，安装时勾选添加路径至环境变量， 或者手动配置。</p>
 <p>cmd 输入命令</p>
 <pre class="line-numbers language-none"><code class="language-none">Python<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>验证成功</p>
 </li>
 <li><h4 id="安装Django"><a href="#安装Django" class="headerlink" title="安装Django"></a>安装Django</h4><ul>
 <li><h5 id="通过pip安装Django"><a href="#通过pip安装Django" class="headerlink" title="通过pip安装Django"></a>通过pip安装Django</h5><p>cmd输入命令：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ pip <span class="token function">install</span> django<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>如果下载速度慢，使用国内提供的安装源：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ pip <span class="token function">install</span> -i https://pypi.tuna.tsinghua.edu.cn/simple Django
 <span class="token string">"-i"</span> 指定单次安装源<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
 
 
 </li>
@@ -616,7 +613,6 @@
 <p>输入命令：查看Django安装版本</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token function">import</span> django
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> django.get_version<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207164249014.png" alt="image-20201207164249014"></p>
 <p>或者使用<code>pip list</code>命令</p>
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207164509590.png" alt="image-20201207164509590"></p>
@@ -626,7 +622,6 @@
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207165011180.png" alt="image-20201207165011180"></p>
 <p>cmd 直接输入命令，如图 则配置成功</p>
 <pre class="line-numbers language-none"><code class="language-none">django-admin help<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207165117614.png" alt="image-20201207165117614"></p>
 </li>
 </ul>
@@ -634,47 +629,32 @@
 <li><h4 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h4></li>
 <li><h4 id="运行导入的项目或者Git的项目"><a href="#运行导入的项目或者Git的项目" class="headerlink" title="运行导入的项目或者Git的项目"></a>运行导入的项目或者Git的项目</h4><p>在项目的文件夹下面（含有manage.py）,打开命令行输入：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">python manage.py migrate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207172602453.png" alt="image-20201207172602453"></p>
 <p>因为库的缺失会出现一系列问题，下面记录一下我遇到的问题：在下载一些库时，速度较慢，需要用到上面安装Django时的数据源。Django换成install后面的库名称即可</p>
 <pre class="line-numbers language-none"><code class="language-none">$ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple Django<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <h5 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h5><p>问题一：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ModuleNotFoundError: No module named <span class="token string">'corsheaders'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <pre class="line-numbers language-none"><code class="language-none">pip install django-cors-headers<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>问题二：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ModuleNotFoundError: No module named <span class="token string">'adminlte3'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip <span class="token function">install</span> django-adminlte3<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>问题三：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ModuleNotFoundError: No module named <span class="token string">'drf_yasg'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip <span class="token function">install</span> drf_yasg<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>问题四：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ModuleNotFoundError: No module named <span class="token string">'rest_registration'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip <span class="token function">install</span> django-rest-registration<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>问题五：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ModuleNotFoundError: No module named <span class="token string">'django_filters'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip <span class="token function">install</span> django-filter<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>问题六：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ModuleNotFoundError: No module named <span class="token string">'rest_framework_simplejwt'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip <span class="token function">install</span> djangorestframework-simplejwt<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p>最后成功效果图：</p>
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207173505632.png" alt="image-20201207173505632"></p>
 </li>
 <li><h4 id="运行Django项目"><a href="#运行Django项目" class="headerlink" title="运行Django项目;"></a>运行Django项目;</h4><p>输入一下命令。可以是cmd中输入，也可以编译器打开控制台输入</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">python manage.py runserver<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
 <p><img src="https://github.com/JinxLori/BlogImage/raw/master/2020_12_08/image-20201207174347066.png" alt="image-20201207174347066"></p>
 </li>
 </ol>
@@ -829,12 +809,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
-                    </a>
-                    
                     <a href="/tags/tool/">
                         <span class="chip bg-color">tool</span>
+                    </a>
+                    
+                    <a href="/tags/Android/">
+                        <span class="chip bg-color">Android</span>
                     </a>
                     
                 </div>
