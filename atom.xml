@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-01-07T09:57:13.671Z</updated>
+  <updated>2021-01-08T04:41:23.943Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://jinxlori.github.io/2021/01/07/shi-yong-vuex-persistedstate-wei-chi-store-de-zhuang-tai-bing-jia-mi/"/>
     <id>https://jinxlori.github.io/2021/01/07/shi-yong-vuex-persistedstate-wei-chi-store-de-zhuang-tai-bing-jia-mi/</id>
     <published>2021-01-07T09:52:52.000Z</published>
-    <updated>2021-01-07T09:57:13.671Z</updated>
+    <updated>2021-01-08T04:41:23.943Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;在使用vue时，我们常会利用vuex来集中管理组件的状态，例如用户登录状态，用户授权状态，又或者是其他的页面信息以及状态。但是当我们刷新页面，存在store/state中的信息就会被清空，为了用户体验以及请求开销，我们需要使用客户端来暂时存储这些信息，如localstora</summary>
         
       
     
@@ -75,14 +75,14 @@
     <link href="https://jinxlori.github.io/2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/"/>
     <id>https://jinxlori.github.io/2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/</id>
     <published>2020-12-28T08:33:01.000Z</published>
-    <updated>2020-12-28T08:34:49.963Z</updated>
+    <updated>2021-01-08T04:09:04.328Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -175,11 +175,11 @@
     <category term="tool" scheme="https://jinxlori.github.io/categories/vscode/html/tool/"/>
     
     
+    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
+    
     <category term="vscode" scheme="https://jinxlori.github.io/tags/vscode/"/>
     
     <category term="html" scheme="https://jinxlori.github.io/tags/html/"/>
-    
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
     
   </entry>
   
@@ -233,9 +233,9 @@
     <category term="tool" scheme="https://jinxlori.github.io/categories/Android/tool/"/>
     
     
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
-    
     <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
+    
+    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
     
   </entry>
   
