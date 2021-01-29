@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Genymobile/scrcpy Android USB, 鑫鑫鑫">
+    <meta name="keywords" content="优化Vue项目文件大小，提升页面加载速度, 鑫鑫鑫">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Genymobile/scrcpy Android USB | 鑫鑫鑫</title>
+    <title>优化Vue项目文件大小，提升页面加载速度 | 鑫鑫鑫</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/libs/awesome/css/all.css">
@@ -420,12 +420,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Genymobile/scrcpy Android USB</h1>
+                    <h1 class="description center-align post-title">优化Vue项目文件大小，提升页面加载速度</h1>
                 </div>
             </div>
         </div>
@@ -541,12 +541,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Android/">
-                                <span class="chip bg-color">Android</span>
-                            </a>
-                        
-                            <a href="/tags/tool/">
-                                <span class="chip bg-color">tool</span>
+                            <a href="/tags/vue/">
+                                <span class="chip bg-color">vue</span>
                             </a>
                         
                     </div>
@@ -557,12 +553,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Android/" class="post-category">
-                                Android
-                            </a>
-                        
-                            <a href="/categories/Android/tool/" class="post-category">
-                                tool
+                            <a href="/categories/%E4%BC%98%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/" class="post-category">
+                                优化vue项目文件大小的常用方法
                             </a>
                         
                     </div>
@@ -574,7 +566,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-16
+                    2021-01-29
                 </div>
                 
 
@@ -598,33 +590,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="scrcpy简介："><a href="#scrcpy简介：" class="headerlink" title="scrcpy简介："></a>scrcpy简介：</h3><p>此项目为开源项目，Github地址：<a target="_blank" rel="noopener" href="https://github.com/Genymobile/scrcpy">Genymobile/scrcpy: Display and control your Android device</a></p>
-<p>Windows 下载：<a href="https://link.zhihu.com/?target=https://github.com/Genymobile/scrcpy/releases/download/v1.16/scrcpy-win64-v1.16.zip">scrcpy-win64-v1.16.zip</a></p>
-<h3 id="scrcpy使用："><a href="#scrcpy使用：" class="headerlink" title="scrcpy使用："></a>scrcpy使用：</h3><h4 id="usb投屏："><a href="#usb投屏：" class="headerlink" title="usb投屏："></a>usb投屏：</h4><p>电脑端完成配置后，我们还需要在手机端开启 <code>开发者选项</code> 及 <code>USB 调试</code>。然后使用数据线将手机和电脑连接并允许 USB 调试，双击解压得到的 <strong>scrcpy.exe</strong> 文件，即可进行有线投屏。</p>
-<h4 id="无线投屏："><a href="#无线投屏：" class="headerlink" title="无线投屏："></a>无线投屏：</h4><ol>
-<li>确保 PC 和手机处于同一局域网中</li>
-<li>打开 PowerShell (~ cmd)，依次操作并输入代码</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># a.将代码目录定位到 scrcpy 文件夹 </span>
-<span class="token builtin class-name">cd</span> D:<span class="token punctuation">\</span>Libraries<span class="token punctuation">\</span>Desktop<span class="token punctuation">\</span>scrcpy-win64-v1.16​
-
-<span class="token comment"># b.在手机端开启「开发者选项」及「USB 调试」，然后使用数据线将手机和电脑连接并允许 USB 调试，开启手机端口 # 如果本行显示 no device 或未启动 adb，需检查「USB 调试」是否开启。 # 此外，一些手机需选择「文件传输」模式方能使用 adb。 </span>
-.<span class="token punctuation">\</span>adb tcpip <span class="token number">5555</span>​
-
-<span class="token comment"># c.拔出手机数据线，开始无线投屏。(192.168.2.234 为手机端 ip，需更改) </span>
-.<span class="token punctuation">\</span>adb connect <span class="token number">192.168</span>.2.234:5555​
-
-<span class="token comment"># d.启动 scrcpy.exe </span>
-.<span class="token punctuation">\</span>scrcpy 
-
-<span class="token comment"># 如有报错，可启动低分辨率投屏 </span>
-.<span class="token punctuation">\</span>scrcpy -m <span class="token number">1920</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>手机IP可通过手机的<code>状态信息</code>查看</p>
-<p>正如预期的那样，性能与USB不同，默认的scrcpy比特率是8Mbps，这对于Wi-Fi连接来说可能太多了。根据使用情况，降低比特率和分辨率可能是一个很好的折中方案。</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">scrcpy --bit-rate 2M --max-size <span class="token number">800</span>
-<span class="token comment"># 或者简写</span>
-scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
+                <h1 id="优化Vue项目的文件大小"><a href="#优化Vue项目的文件大小" class="headerlink" title="优化Vue项目的文件大小"></a><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000015990701">优化Vue项目的文件大小</a></h1><h1 id="https-blog-csdn-net-zhenghao35791-article-details-93649587"><a href="#https-blog-csdn-net-zhenghao35791-article-details-93649587" class="headerlink" title="https://blog.csdn.net/zhenghao35791/article/details/93649587"></a><a target="_blank" rel="noopener" href="https://blog.csdn.net/zhenghao35791/article/details/93649587">https://blog.csdn.net/zhenghao35791/article/details/93649587</a></h1>
                 
             </div>
             <hr/>
@@ -650,7 +616,7 @@ scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jinxlori.github.io/2020/12/16/genymobile-scrcpy-android-usb/">https://jinxlori.github.io/2020/12/16/genymobile-scrcpy-android-usb/</a>
+                    <a href="https://jinxlori.github.io/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/">https://jinxlori.github.io/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -688,12 +654,8 @@ scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Android/">
-                                    <span class="chip bg-color">Android</span>
-                                </a>
-                            
-                                <a href="/tags/tool/">
-                                    <span class="chip bg-color">tool</span>
+                                <a href="/tags/vue/">
+                                    <span class="chip bg-color">vue</span>
                                 </a>
                             
                         </div>
@@ -737,41 +699,43 @@ scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/12/17/vue-public-constants-and-methods/">
+                <a href="/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="vue public constants and methods">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/16.jpg" class="responsive-img" alt="优化Vue项目文件大小，提升页面加载速度">
                         
-                        <span class="card-title">vue public constants and methods</span>
+                        <span class="card-title">优化Vue项目文件大小，提升页面加载速度</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            vue 公共常量以及方法的使用
+                            优化vue项目文件大小的常用方法
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-17
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-29
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/vue/" class="post-category">
-                                    vue
+                            <a href="/categories/%E4%BC%98%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/" class="post-category">
+                                    优化vue项目文件大小的常用方法
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -790,31 +754,31 @@ scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/12/08/django-yun-xing-huan-jing-pei-zhi-ji-lu/">
+                <a href="/2021/01/28/dui-vue-de-seo-sou-suo-yin-qing-you-hua/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="Django运行环境配置记录">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/19.jpg" class="responsive-img" alt="对Vue的SEO搜索引擎优化">
                         
-                        <span class="card-title">Django运行环境配置记录</span>
+                        <span class="card-title">对Vue的SEO搜索引擎优化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Django项目运行环境配置记录
+                            对Vue的SEO搜索引擎优化，说白了就是你的SEO做的越好，当别人搜索某个关键词时，你的网站在搜索结果中就排的越靠前。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-28
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Django/" class="post-category">
-                                    Django
+                            <a href="/categories/%E5%AF%B9Vue%E7%9A%84SEO%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/" class="post-category">
+                                    对Vue的SEO搜索引擎优化
                                 </a>
                             
                             
@@ -824,8 +788,8 @@ scrcpy -b2M -m800<span aria-hidden="true" class="line-numbers-rows"><span></span
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Django/">
-                        <span class="chip bg-color">Django</span>
+                    <a href="/tags/vue/">
+                        <span class="chip bg-color">vue</span>
                     </a>
                     
                 </div>
