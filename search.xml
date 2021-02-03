@@ -4,6 +4,57 @@
   
     
     <entry>
+      <title>vue中input输入实时检测敏感词，变为***</title>
+      <link href="2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/"/>
+      <url>2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://my.oschina.net/u/4405256/blog/4697807">https://my.oschina.net/u/4405256/blog/4697807</a></p><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 敏感词检测</span><span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">checkSensitive</span><span class="token punctuation">(</span><span class="token parameter">word</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>word<span class="token punctuation">)</span>  <span class="token keyword">const</span> words <span class="token operator">=</span> <span class="token string">'赌博#嫖娼#卖淫#毒品#黄片#开赌六合彩'</span> <span class="token operator">+</span>              <span class="token string">'#操#草#操你妈#去你大爷#你妈逼#狗日'</span> <span class="token operator">+</span>              <span class="token string">'#台湾独立#香港独立#西藏独立#推翻共产党#李洪志#法轮功'</span> <span class="token operator">+</span>              <span class="token string">'#李源潮#王岐山#张德江#刘云山#刘奇葆#赵乐际#栗战书#杜青林#赵洪祝#张高丽#刘延东#江泽民#胡锦涛#温家宝#习近平#李克强'</span>  <span class="token keyword">const</span> sensitiveWordsArr <span class="token operator">=</span> words<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'#'</span><span class="token punctuation">)</span>  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> sensitiveWordsArr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token keyword">const</span> reg <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RegExp</span><span class="token punctuation">(</span>sensitiveWordsArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">'gi'</span><span class="token punctuation">)</span>    <span class="token keyword">if</span> <span class="token punctuation">(</span>word<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>sensitiveWordsArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>      word <span class="token operator">=</span> word<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span>reg<span class="token punctuation">,</span> <span class="token string">'***'</span><span class="token punctuation">)</span>    <span class="token punctuation">}</span>  <span class="token punctuation">}</span>  <span class="token keyword">return</span> word<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token function">checkSensitive</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>      <span class="token keyword">this</span><span class="token punctuation">.</span>formData<span class="token punctuation">.</span>textarea <span class="token operator">=</span> <span class="token function">checkSensitive</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span>    <span class="token punctuation">}</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-input</span>            <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>formData.textarea<span class="token punctuation">"</span></span>            <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>textarea<span class="token punctuation">"</span></span>            <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>18<span class="token punctuation">"</span></span>            <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>输入直播间里需要发送的弹幕，每一行是一句。<span class="token punctuation">"</span></span>            <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>checkSensitive<span class="token punctuation">"</span></span>          <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>android程序因图片或者其他资源过大，内存分配不足解解决</title>
+      <link href="2021/02/01/android-cheng-xu-yin-tu-pian-huo-zhe-qi-ta-zi-yuan-guo-da-nei-cun-fen-pei-bu-zu-jie-jie-jue/"/>
+      <url>2021/02/01/android-cheng-xu-yin-tu-pian-huo-zhe-qi-ta-zi-yuan-guo-da-nei-cun-fen-pei-bu-zu-jie-jie-jue/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://stackoverflow.com/questions/32244851/androidjava-lang-outofmemoryerror-failed-to-allocate-a-23970828-byte-allocatio">https://stackoverflow.com/questions/32244851/androidjava-lang-outofmemoryerror-failed-to-allocate-a-23970828-byte-allocatio</a></p><p>报错内容：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Android:java.lang.OutOfMemoryError: Failed to allocate a <span class="token number">23970828</span> byte allocation with <span class="token number">2097152</span> <span class="token function">free</span> bytes and 2MB <span class="token keyword">until</span> OOM<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>解决办法：</p><p><code>android:largeHeap="true"</code></p><pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>application</span>        <span class="token attr-name"><span class="token namespace">android:</span>allowBackup</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span>        <span class="token attr-name"><span class="token namespace">android:</span>icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@mipmap/ic_launcher1<span class="token punctuation">"</span></span>        <span class="token attr-name"><span class="token namespace">android:</span>label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@string/app_name<span class="token punctuation">"</span></span>        <span class="token attr-name"><span class="token namespace">android:</span>roundIcon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@mipmap/ic_launcher_round<span class="token punctuation">"</span></span>        <span class="token attr-name"><span class="token namespace">android:</span>supportsRtl</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span>        <span class="token attr-name"><span class="token namespace">android:</span>theme</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@style/AppTheme<span class="token punctuation">"</span></span>        <span class="token attr-name"><span class="token namespace">android:</span>largeHeap</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Androidx和Android support库共存问题解决</title>
+      <link href="2021/02/01/androidx-he-android-support-ku-gong-cun-wen-ti-jie-jue/"/>
+      <url>2021/02/01/androidx-he-android-support-ku-gong-cun-wen-ti-jie-jue/</url>
+      
+        <content type="html"><![CDATA[<h1 id="https-www-jianshu-com-p-f7a7a8765294"><a href="#https-www-jianshu-com-p-f7a7a8765294" class="headerlink" title="https://www.jianshu.com/p/f7a7a8765294"></a><a href="https://www.jianshu.com/p/f7a7a8765294">https://www.jianshu.com/p/f7a7a8765294</a></h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>优化Vue项目文件大小，提升页面加载速度</title>
       <link href="2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/"/>
       <url>2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/</url>

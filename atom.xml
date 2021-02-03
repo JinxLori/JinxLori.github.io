@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-01-29T03:57:58.234Z</updated>
+  <updated>2021-02-02T06:51:53.259Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,74 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue中input输入实时检测敏感词，变为***</title>
+    <link href="https://jinxlori.github.io/2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/"/>
+    <id>https://jinxlori.github.io/2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/</id>
+    <published>2021-02-02T06:49:40.000Z</published>
+    <updated>2021-02-02T06:51:53.259Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://my.oschina.net/u/4405256/blog/4697807&quot;&gt;https://my.oschina.net/u/4405256/blog/4697807&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>android程序因图片或者其他资源过大，内存分配不足解解决</title>
+    <link href="https://jinxlori.github.io/2021/02/01/android-cheng-xu-yin-tu-pian-huo-zhe-qi-ta-zi-yuan-guo-da-nei-cun-fen-pei-bu-zu-jie-jie-jue/"/>
+    <id>https://jinxlori.github.io/2021/02/01/android-cheng-xu-yin-tu-pian-huo-zhe-qi-ta-zi-yuan-guo-da-nei-cun-fen-pei-bu-zu-jie-jie-jue/</id>
+    <published>2021-02-01T08:26:56.000Z</published>
+    <updated>2021-02-01T08:28:44.045Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Androidx和Android support库共存问题解决</title>
+    <link href="https://jinxlori.github.io/2021/02/01/androidx-he-android-support-ku-gong-cun-wen-ti-jie-jue/"/>
+    <id>https://jinxlori.github.io/2021/02/01/androidx-he-android-support-ku-gong-cun-wen-ti-jie-jue/</id>
+    <published>2021-02-01T08:24:57.000Z</published>
+    <updated>2021-02-01T08:25:31.473Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;https-www-jianshu-com-p-f7a7a8765294&quot;&gt;&lt;a href=&quot;#https-www-jianshu-com-p-f7a7a8765294&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
+    
+  </entry>
   
   <entry>
     <title>优化Vue项目文件大小，提升页面加载速度</title>
