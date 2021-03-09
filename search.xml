@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>mybatis中like多条件模糊匹配，regexp使用</title>
+      <link href="2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/"/>
+      <url>2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/qq_34829813/article/details/106709019">https://blog.csdn.net/qq_34829813/article/details/106709019</a></p><p><a href="https://blog.csdn.net/Js_123456789/article/details/101715423">https://blog.csdn.net/Js_123456789/article/details/101715423</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> mybatis 使用REGEXP实现对某个字段的多条件过滤 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mybatis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vue中input输入实时检测敏感词，变为***</title>
       <link href="2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/"/>
       <url>2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/</url>

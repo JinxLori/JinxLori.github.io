@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="vue中input输入实时检测敏感词，变为***, 鑫鑫鑫">
+    <meta name="keywords" content="mybatis中like多条件模糊匹配，regexp使用, 鑫鑫鑫">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>vue中input输入实时检测敏感词，变为*** | 鑫鑫鑫</title>
+    <title>mybatis中like多条件模糊匹配，regexp使用 | 鑫鑫鑫</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/libs/awesome/css/all.css">
@@ -420,12 +420,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">vue中input输入实时检测敏感词，变为***</h1>
+                    <h1 class="description center-align post-title">mybatis中like多条件模糊匹配，regexp使用</h1>
                 </div>
             </div>
         </div>
@@ -539,12 +539,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/mybatis/">
+                                <span class="chip bg-color">mybatis</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/mybatis-%E4%BD%BF%E7%94%A8REGEXP%E5%AE%9E%E7%8E%B0%E5%AF%B9%E6%9F%90%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%A4%9A%E6%9D%A1%E4%BB%B6%E8%BF%87%E6%BB%A4/" class="post-category">
+                                mybatis 使用REGEXP实现对某个字段的多条件过滤
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -553,7 +566,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-02-02
+                    2021-03-09
                 </div>
                 
 
@@ -577,35 +590,8 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><a target="_blank" rel="noopener" href="https://my.oschina.net/u/4405256/blog/4697807">https://my.oschina.net/u/4405256/blog/4697807</a></p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 敏感词检测</span>
-<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">checkSensitive</span><span class="token punctuation">(</span><span class="token parameter">word</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>word<span class="token punctuation">)</span>
-  <span class="token keyword">const</span> words <span class="token operator">=</span> <span class="token string">'赌博#嫖娼#卖淫#毒品#黄片#开赌六合彩'</span> <span class="token operator">+</span>
-              <span class="token string">'#操#草#操你妈#去你大爷#你妈逼#狗日'</span> <span class="token operator">+</span>
-              <span class="token string">'#台湾独立#香港独立#西藏独立#推翻共产党#李洪志#法轮功'</span> <span class="token operator">+</span>
-              <span class="token string">'#李源潮#王岐山#张德江#刘云山#刘奇葆#赵乐际#栗战书#杜青林#赵洪祝#张高丽#刘延东#江泽民#胡锦涛#温家宝#习近平#李克强'</span>
-  <span class="token keyword">const</span> sensitiveWordsArr <span class="token operator">=</span> words<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'#'</span><span class="token punctuation">)</span>
-  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> sensitiveWordsArr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> reg <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RegExp</span><span class="token punctuation">(</span>sensitiveWordsArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">'gi'</span><span class="token punctuation">)</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>word<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>sensitiveWordsArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      word <span class="token operator">=</span> word<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span>reg<span class="token punctuation">,</span> <span class="token string">'***'</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">return</span> word
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token function">checkSensitive</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">this</span><span class="token punctuation">.</span>formData<span class="token punctuation">.</span>textarea <span class="token operator">=</span> <span class="token function">checkSensitive</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-input</span>
-            <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>formData.textarea<span class="token punctuation">"</span></span>
-            <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>textarea<span class="token punctuation">"</span></span>
-            <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>18<span class="token punctuation">"</span></span>
-            <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>输入直播间里需要发送的弹幕，每一行是一句。<span class="token punctuation">"</span></span>
-            <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>checkSensitive<span class="token punctuation">"</span></span>
-          <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_34829813/article/details/106709019">https://blog.csdn.net/qq_34829813/article/details/106709019</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Js_123456789/article/details/101715423">https://blog.csdn.net/Js_123456789/article/details/101715423</a></p>
 
                 
             </div>
@@ -632,7 +618,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jinxlori.github.io/2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/">https://jinxlori.github.io/2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/</a>
+                    <a href="https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/">https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -669,7 +655,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/mybatis/">
+                                    <span class="chip bg-color">mybatis</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -711,9 +701,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/">
                     <div class="card-image">
@@ -731,9 +722,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-09
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -746,6 +737,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -764,13 +756,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/01/android-cheng-xu-yin-tu-pian-huo-zhe-qi-ta-zi-yuan-guo-da-nei-cun-fen-pei-bu-zu-jie-jie-jue/">
+                <a href="/2021/02/02/vue-zhong-input-shu-ru-shi-shi-jian-ce-min-gan-ci-bian-wei/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/16.jpg" class="responsive-img" alt="android程序因图片或者其他资源过大，内存分配不足解解决">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="vue中input输入实时检测敏感词，变为***">
                         
-                        <span class="card-title">android程序因图片或者其他资源过大，内存分配不足解解决</span>
+                        <span class="card-title">vue中input输入实时检测敏感词，变为***</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -781,7 +773,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-02
                             </span>
                         <span class="publish-author">
                             
@@ -790,14 +782,6 @@
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
-                    </a>
-                    
                 </div>
                 
             </div>

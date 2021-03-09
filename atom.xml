@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-02-02T06:51:53.259Z</updated>
+  <updated>2021-03-09T08:10:38.807Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mybatis中like多条件模糊匹配，regexp使用</title>
+    <link href="https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/"/>
+    <id>https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/</id>
+    <published>2021-03-09T08:08:09.000Z</published>
+    <updated>2021-03-09T08:10:38.807Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="mybatis 使用REGEXP实现对某个字段的多条件过滤" scheme="https://jinxlori.github.io/categories/mybatis-%E4%BD%BF%E7%94%A8REGEXP%E5%AE%9E%E7%8E%B0%E5%AF%B9%E6%9F%90%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%A4%9A%E6%9D%A1%E4%BB%B6%E8%BF%87%E6%BB%A4/"/>
+    
+    
+    <category term="mybatis" scheme="https://jinxlori.github.io/tags/mybatis/"/>
+    
+  </entry>
   
   <entry>
     <title>vue中input输入实时检测敏感词，变为***</title>
