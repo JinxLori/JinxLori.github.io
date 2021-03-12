@@ -4,6 +4,120 @@
   
     
     <entry>
+      <title>Mixed Content:xxx was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint xxx</title>
+      <link href="2021/03/12/mixed-content-xxx-was-loaded-over-https-but-requested-an-insecure-xmlhttprequest-endpoint-xxx/"/>
+      <url>2021/03/12/mixed-content-xxx-was-loaded-over-https-but-requested-an-insecure-xmlhttprequest-endpoint-xxx/</url>
+      
+        <content type="html"><![CDATA[<p>在一个https的页面中，发送http请求，提示请求了一个不安全的脚本，报错Mixed Content</p><p><a href="https://blog.csdn.net/No_overtime_apes/article/details/101707562">https://blog.csdn.net/No_overtime_apes/article/details/101707562</a></p><p>页面的head中加入：</p><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Content-Security-Policy<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>upgrade-insecure-requests<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><a href="https://blog.csdn.net/weixin_42207353/article/details/108271567">https://blog.csdn.net/weixin_42207353/article/details/108271567</a></p><p>在我们服务器的响应头中加入：</p><pre class="line-numbers language-json" data-language="json"><code class="language-json">header(<span class="token string">"Content-Security-Policy: upgrade-insecure-requests"</span>);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>vue的axios请求中添加请求头</p><pre class="line-numbers language-js" data-language="js"><code class="language-js">headers<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token string">'Content-Security-Policy'</span><span class="token operator">:</span> <span class="token string">'upgrade-insecure-requests'</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>            method<span class="token operator">:</span> <span class="token string">"get"</span><span class="token punctuation">,</span>            url<span class="token operator">:</span> <span class="token string">"http://xxxxxx"</span><span class="token punctuation">,</span>            <span class="token comment">// url: "http://localhost:8080/dmb/exportExcel.xlsx",</span>            params<span class="token operator">:</span> params<span class="token punctuation">,</span>            responseType<span class="token operator">:</span> <span class="token string">"blob"</span><span class="token punctuation">,</span>            <span class="token comment">// 升级http请求为HTTPS请求，解决mixed content报错</span>            headers<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token string">'Content-Security-Policy'</span><span class="token operator">:</span> <span class="token string">'upgrade-insecure-requests'</span><span class="token punctuation">}</span>          <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>          ····          <span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> http </category>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+            <tag> http </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java 查询数据库并将结果返回给页面下载</title>
+      <link href="2021/03/12/java-cha-xun-shu-ju-ku-bing-jiang-jie-guo-fan-hui-gei-ye-mian-xia-zai/"/>
+      <url>2021/03/12/java-cha-xun-shu-ju-ku-bing-jiang-jie-guo-fan-hui-gei-ye-mian-xia-zai/</url>
+      
+        <content type="html"><![CDATA[<p>java查询数据库，并转换为Excel文件</p><p><a href="https://blog.csdn.net/qinyf2015/article/details/78810622">https://blog.csdn.net/qinyf2015/article/details/78810622</a></p><p>需要引入的maven包</p><p><a href="https://www.cnblogs.com/sxdcgaq8080/p/10417188.html">https://www.cnblogs.com/sxdcgaq8080/p/10417188.html</a></p><p>前端vue发送请求获取文件并显示下载</p><p><a href="https://blog.csdn.net/xiaobing_hope/article/details/103363513">https://blog.csdn.net/xiaobing_hope/article/details/103363513</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JeecgBoot 引入pageOffie 实现Word,Excel在线预览以及编辑保存</title>
+      <link href="2021/03/12/jeecgboot-yin-ru-pageoffie-shi-xian-word-excel-zai-xian-yu-lan-yi-ji-bian-ji-bao-cun/"/>
+      <url>2021/03/12/jeecgboot-yin-ru-pageoffie-shi-xian-word-excel-zai-xian-yu-lan-yi-ji-bian-ji-bao-cun/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/las723/article/details/86503557">https://blog.csdn.net/las723/article/details/86503557</a></p><p><a href="https://gitee.com/zhengqingya/java-workspace/tree/master/Spring%20Boot%20%E7%B3%BB%E5%88%97/SpringBoot(30)%20%E6%95%B4%E5%90%88PageOffice%E5%AE%9E%E7%8E%B0%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91Word%E5%92%8CExcel">https://gitee.com/zhengqingya/java-workspace/tree/master/Spring%20Boot%20%E7%B3%BB%E5%88%97/SpringBoot(30)%20%E6%95%B4%E5%90%88PageOffice%E5%AE%9E%E7%8E%B0%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91Word%E5%92%8CExcel</a></p><p>将上面的代码作为模块包加入jeecgboot项目</p><p><img src="C:\Users\念一\AppData\Roaming\Typora\typora-user-images\image-20210312153418413.png" alt="image-20210312153418413"></p><p>在system的模块中的主程序jeecgApplicatoion.java中添加以下代码，创建所需文件的路径。</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//  @Value("${pageoffice.posyspath}")</span><span class="token comment">//  private String poSysPath;</span>  <span class="token comment">/**   * 添加PageOffice的服务器端授权程序Servlet（必须）   *   * @return   */</span>  <span class="token annotation punctuation">@Bean</span>  <span class="token keyword">public</span> <span class="token class-name">ServletRegistrationBean</span> <span class="token function">servletRegistrationBean</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token class-name"><span class="token namespace">com<span class="token punctuation">.</span>zhuozhengsoft<span class="token punctuation">.</span>pageoffice<span class="token punctuation">.</span>poserver<span class="token punctuation">.</span></span>Server</span> poserver <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token namespace">com<span class="token punctuation">.</span>zhuozhengsoft<span class="token punctuation">.</span>pageoffice<span class="token punctuation">.</span>poserver<span class="token punctuation">.</span></span>Server</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// 设置PageOffice注册成功后,license.lic文件存放的目录</span>    poserver<span class="token punctuation">.</span><span class="token function">setSysPath</span><span class="token punctuation">(</span><span class="token string">"D:\\Project\\档案管理系统\\File_Management\\pageoffice\\pageoffice\\lic/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token class-name">ServletRegistrationBean</span> srb <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ServletRegistrationBean</span><span class="token punctuation">(</span>poserver<span class="token punctuation">)</span><span class="token punctuation">;</span>    srb<span class="token punctuation">.</span><span class="token function">addUrlMappings</span><span class="token punctuation">(</span><span class="token string">"/poserver.zz"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    srb<span class="token punctuation">.</span><span class="token function">addUrlMappings</span><span class="token punctuation">(</span><span class="token string">"/posetup.exe"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    srb<span class="token punctuation">.</span><span class="token function">addUrlMappings</span><span class="token punctuation">(</span><span class="token string">"/pageoffice.js"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    srb<span class="token punctuation">.</span><span class="token function">addUrlMappings</span><span class="token punctuation">(</span><span class="token string">"/jquery.min.js"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    srb<span class="token punctuation">.</span><span class="token function">addUrlMappings</span><span class="token punctuation">(</span><span class="token string">"/pobstyle.css"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    srb<span class="token punctuation">.</span><span class="token function">addUrlMappings</span><span class="token punctuation">(</span><span class="token string">"/sealsetup.exe"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> srb<span class="token punctuation">;</span>  <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>该代码之前位于pageOffice模块中的controller中，添加为jeecg的模块之后，不会去执行该Bean类，所以需要提放至主程序中执行。</p><p>否则会获取不到对应的路径，如pageoffice.js等</p><p>将pageoffice模块中的application.yml中的配置提放至system中的application.yml文件中，否则跟上述的代码一样读取不到</p><p>去掉pageoffice模块中的config文件夹以及其中的拦截器配置，不然会提示与jeecgboot的冲突</p><p>最后还需要将pageoffice模块中java的包路径更改为org.jeecg.modules</p><p><img src="C:\Users\念一\AppData\Roaming\Typora\typora-user-images\image-20210312155535184.png" alt="image-20210312155535184"></p><p>测试：</p><p>将pageoffice模块中的index.html的代码复制放入vscode中，可以新建test.html，或者直接用vscode打开index.html</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> jeecgboot </category>
+          
+          <category> pageoffice </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> jeecgboot </tag>
+            
+            <tag> pageoffice </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SpringBoot 整合PageOffice实现Word，Excel在线预览编辑</title>
+      <link href="2021/03/12/springboot-zheng-he-pageoffice-shi-xian-word-excel-zai-xian-yu-lan-bian-ji/"/>
+      <url>2021/03/12/springboot-zheng-he-pageoffice-shi-xian-word-excel-zai-xian-yu-lan-bian-ji/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/qq_38225558/article/details/107352979">https://blog.csdn.net/qq_38225558/article/details/107352979</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> springboot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> springboot </tag>
+            
+            <tag> PageOffice </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mybatis中like多条件模糊匹配，regexp使用</title>
       <link href="2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/"/>
       <url>2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/</url>
@@ -13,7 +127,7 @@
       
       <categories>
           
-          <category> mybatis 使用REGEXP实现对某个字段的多条件过滤 </category>
+          <category> mybatis </category>
           
       </categories>
       
@@ -89,7 +203,7 @@
       
       <categories>
           
-          <category> 优化vue项目文件大小的常用方法 </category>
+          <category> vue </category>
           
       </categories>
       
@@ -114,7 +228,7 @@
       
       <categories>
           
-          <category> 对Vue的SEO搜索引擎优化 </category>
+          <category> vue </category>
           
       </categories>
       

@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-03-09T08:10:38.807Z</updated>
+  <updated>2021-03-12T15:29:54.056Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -17,11 +17,101 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>mybatis中like多条件模糊匹配，regexp使用</title>
-    <link href="https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/"/>
-    <id>https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/</id>
-    <published>2021-03-09T08:08:09.000Z</published>
-    <updated>2021-03-09T08:10:38.807Z</updated>
+    <title>Mixed Content:xxx was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint xxx</title>
+    <link href="https://jinxlori.github.io/2021/03/12/mixed-content-xxx-was-loaded-over-https-but-requested-an-insecure-xmlhttprequest-endpoint-xxx/"/>
+    <id>https://jinxlori.github.io/2021/03/12/mixed-content-xxx-was-loaded-over-https-but-requested-an-insecure-xmlhttprequest-endpoint-xxx/</id>
+    <published>2021-03-12T15:16:09.000Z</published>
+    <updated>2021-03-12T15:29:54.056Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在一个https的页面中，发送http请求，提示请求了一个不安全的脚本，报错Mixed Content&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="http" scheme="https://jinxlori.github.io/categories/http/"/>
+    
+    <category term="vue" scheme="https://jinxlori.github.io/categories/http/vue/"/>
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
+    
+    <category term="http" scheme="https://jinxlori.github.io/tags/http/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 查询数据库并将结果返回给页面下载</title>
+    <link href="https://jinxlori.github.io/2021/03/12/java-cha-xun-shu-ju-ku-bing-jiang-jie-guo-fan-hui-gei-ye-mian-xia-zai/"/>
+    <id>https://jinxlori.github.io/2021/03/12/java-cha-xun-shu-ju-ku-bing-jiang-jie-guo-fan-hui-gei-ye-mian-xia-zai/</id>
+    <published>2021-03-12T14:43:24.000Z</published>
+    <updated>2021-03-12T14:48:05.468Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;java查询数据库，并转换为Excel文件&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="java" scheme="https://jinxlori.github.io/categories/java/"/>
+    
+    <category term="vue" scheme="https://jinxlori.github.io/categories/java/vue/"/>
+    
+    
+    <category term="java" scheme="https://jinxlori.github.io/tags/java/"/>
+    
+    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JeecgBoot 引入pageOffie 实现Word,Excel在线预览以及编辑保存</title>
+    <link href="https://jinxlori.github.io/2021/03/12/jeecgboot-yin-ru-pageoffie-shi-xian-word-excel-zai-xian-yu-lan-yi-ji-bian-ji-bao-cun/"/>
+    <id>https://jinxlori.github.io/2021/03/12/jeecgboot-yin-ru-pageoffie-shi-xian-word-excel-zai-xian-yu-lan-yi-ji-bian-ji-bao-cun/</id>
+    <published>2021-03-12T07:30:13.000Z</published>
+    <updated>2021-03-12T08:11:19.302Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/las723/article/details/86503557&quot;&gt;https://blog.csdn.net/las723/article/details/86503557&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="jeecgboot" scheme="https://jinxlori.github.io/categories/jeecgboot/"/>
+    
+    <category term="pageoffice" scheme="https://jinxlori.github.io/categories/jeecgboot/pageoffice/"/>
+    
+    
+    <category term="jeecgboot" scheme="https://jinxlori.github.io/tags/jeecgboot/"/>
+    
+    <category term="pageoffice" scheme="https://jinxlori.github.io/tags/pageoffice/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot 整合PageOffice实现Word，Excel在线预览编辑</title>
+    <link href="https://jinxlori.github.io/2021/03/12/springboot-zheng-he-pageoffice-shi-xian-word-excel-zai-xian-yu-lan-bian-ji/"/>
+    <id>https://jinxlori.github.io/2021/03/12/springboot-zheng-he-pageoffice-shi-xian-word-excel-zai-xian-yu-lan-bian-ji/</id>
+    <published>2021-03-12T07:28:09.000Z</published>
+    <updated>2021-03-12T07:29:26.302Z</updated>
     
     
       
@@ -34,7 +124,34 @@
     
     
     
-    <category term="mybatis 使用REGEXP实现对某个字段的多条件过滤" scheme="https://jinxlori.github.io/categories/mybatis-%E4%BD%BF%E7%94%A8REGEXP%E5%AE%9E%E7%8E%B0%E5%AF%B9%E6%9F%90%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%A4%9A%E6%9D%A1%E4%BB%B6%E8%BF%87%E6%BB%A4/"/>
+    <category term="springboot" scheme="https://jinxlori.github.io/categories/springboot/"/>
+    
+    
+    <category term="springboot" scheme="https://jinxlori.github.io/tags/springboot/"/>
+    
+    <category term="PageOffice" scheme="https://jinxlori.github.io/tags/PageOffice/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mybatis中like多条件模糊匹配，regexp使用</title>
+    <link href="https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/"/>
+    <id>https://jinxlori.github.io/2021/03/09/mybatis-zhong-like-duo-tiao-jian-mo-hu-pi-pei-regexp-shi-yong/</id>
+    <published>2021-03-09T08:08:09.000Z</published>
+    <updated>2021-03-12T15:52:51.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="mybatis" scheme="https://jinxlori.github.io/categories/mybatis/"/>
     
     
     <category term="mybatis" scheme="https://jinxlori.github.io/tags/mybatis/"/>
@@ -114,7 +231,7 @@
     <link href="https://jinxlori.github.io/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/"/>
     <id>https://jinxlori.github.io/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/</id>
     <published>2021-01-29T02:58:05.000Z</published>
-    <updated>2021-01-29T03:57:58.234Z</updated>
+    <updated>2021-03-12T15:52:36.407Z</updated>
     
     
       
@@ -127,7 +244,7 @@
     
     
     
-    <category term="优化vue项目文件大小的常用方法" scheme="https://jinxlori.github.io/categories/%E4%BC%98%E5%8C%96vue%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E7%9A%84%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
     
     
     <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
@@ -139,7 +256,7 @@
     <link href="https://jinxlori.github.io/2021/01/28/dui-vue-de-seo-sou-suo-yin-qing-you-hua/"/>
     <id>https://jinxlori.github.io/2021/01/28/dui-vue-de-seo-sou-suo-yin-qing-you-hua/</id>
     <published>2021-01-28T07:39:38.000Z</published>
-    <updated>2021-01-28T07:40:47.356Z</updated>
+    <updated>2021-03-12T15:52:20.691Z</updated>
     
     
       
@@ -153,7 +270,7 @@
     
     
     
-    <category term="对Vue的SEO搜索引擎优化" scheme="https://jinxlori.github.io/categories/%E5%AF%B9Vue%E7%9A%84SEO%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/"/>
+    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
     
     
     <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
@@ -417,82 +534,6 @@
     
     
     <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Genymobile/scrcpy Android USB</title>
-    <link href="https://jinxlori.github.io/2020/12/16/genymobile-scrcpy-android-usb/"/>
-    <id>https://jinxlori.github.io/2020/12/16/genymobile-scrcpy-android-usb/</id>
-    <published>2020-12-16T08:19:29.000Z</published>
-    <updated>2021-01-12T14:24:54.095Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;scrcpy简介：&quot;&gt;&lt;a href=&quot;#scrcpy简介：&quot; class=&quot;headerlink&quot; title=&quot;scrcpy简介：&quot;&gt;&lt;/a&gt;scrcpy简介：&lt;/h3&gt;&lt;p&gt;此项目为开源项目，Github地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Android" scheme="https://jinxlori.github.io/categories/Android/"/>
-    
-    <category term="tool" scheme="https://jinxlori.github.io/categories/Android/tool/"/>
-    
-    
-    <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
-    
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Django运行环境配置记录</title>
-    <link href="https://jinxlori.github.io/2020/12/08/django-yun-xing-huan-jing-pei-zhi-ji-lu/"/>
-    <id>https://jinxlori.github.io/2020/12/08/django-yun-xing-huan-jing-pei-zhi-ji-lu/</id>
-    <published>2020-12-08T08:19:29.000Z</published>
-    <updated>2021-01-12T14:37:39.647Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;环境配置：&quot;&gt;&lt;a href=&quot;#环境配置：&quot; class=&quot;headerlink&quot; title=&quot;环境配置：&quot;&gt;&lt;/a&gt;环境配置：&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;h4 id=&quot;安装Python&quot;&gt;&lt;a href=&quot;#安装Python&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Django" scheme="https://jinxlori.github.io/categories/Django/"/>
-    
-    
-    <category term="Django" scheme="https://jinxlori.github.io/tags/Django/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://jinxlori.github.io/2020/12/08/hello-world/"/>
-    <id>https://jinxlori.github.io/2020/12/08/hello-world/</id>
-    <published>2020-12-08T04:45:32.326Z</published>
-    <updated>2020-12-08T04:45:32.327Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
