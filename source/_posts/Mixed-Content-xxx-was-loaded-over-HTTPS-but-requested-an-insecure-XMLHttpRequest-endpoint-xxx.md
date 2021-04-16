@@ -13,6 +13,10 @@ tags: [http,vue]
 categories: [http,vue]
 ---
 
+在一个https的页面中，发送http请求，提示请求了一个不安全的脚本，报错Mixed Content
+
+
+
 https://blog.csdn.net/No_overtime_apes/article/details/101707562
 
 页面的head中加入：

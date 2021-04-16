@@ -8,7 +8,7 @@ date: 2021-01-29 10:58:05
 password:
 summary: 优化vue项目文件大小的常用方法
 tags: vue
-categories: 优化vue项目文件大小的常用方法
+categories: vue
 ---
 
 

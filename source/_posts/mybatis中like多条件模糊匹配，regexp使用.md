@@ -8,7 +8,7 @@ date: 2021-03-09 16:08:09
 password:
 summary: mybatis中like多条件模糊匹配，regexp使用，以及regexp中含有问号的处理
 tags: mybatis
-categories: mybatis 使用REGEXP实现对某个字段的多条件过滤
+categories: mybatis
 ---
 
 https://blog.csdn.net/qq_34829813/article/details/106709019
