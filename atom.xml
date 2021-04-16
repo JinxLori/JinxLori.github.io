@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-03-12T15:29:54.056Z</updated>
+  <updated>2021-04-16T05:25:42.635Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue 常用知识</title>
+    <link href="https://jinxlori.github.io/2021/04/16/vue-chang-yong-zhi-shi/"/>
+    <id>https://jinxlori.github.io/2021/04/16/vue-chang-yong-zhi-shi/</id>
+    <published>2021-04-16T05:24:35.000Z</published>
+    <updated>2021-04-16T05:25:42.635Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;let-var-const-之间的区别&quot;&gt;&lt;a href=&quot;#let-var-const-之间的区别&quot; class=&quot;headerlink&quot; title=&quot;let ,var ,const 之间的区别&quot;&gt;&lt;/a&gt;let ,var ,const</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="https://jinxlori.github.io/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="https://jinxlori.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue 引入远程js文件</title>
+    <link href="https://jinxlori.github.io/2021/03/25/vue-yin-ru-yuan-cheng-js-wen-jian/"/>
+    <id>https://jinxlori.github.io/2021/03/25/vue-yin-ru-yuan-cheng-js-wen-jian/</id>
+    <published>2021-03-25T04:57:16.000Z</published>
+    <updated>2021-03-25T04:58:33.297Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>Mixed Content:xxx was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint xxx</title>
@@ -474,66 +524,6 @@
     
     
     <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VSCode设置网页代码实时预览 LiveServer</title>
-    <link href="https://jinxlori.github.io/2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/"/>
-    <id>https://jinxlori.github.io/2020/12/18/vscode-she-zhi-wang-ye-dai-ma-shi-shi-yu-lan-liveserver/</id>
-    <published>2020-12-18T08:19:29.000Z</published>
-    <updated>2021-01-12T14:38:08.975Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;描述：&quot;&gt;&lt;a href=&quot;#描述：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="vscode" scheme="https://jinxlori.github.io/categories/vscode/"/>
-    
-    <category term="tool" scheme="https://jinxlori.github.io/categories/vscode/tool/"/>
-    
-    <category term="html" scheme="https://jinxlori.github.io/categories/vscode/tool/html/"/>
-    
-    
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
-    
-    <category term="vscode" scheme="https://jinxlori.github.io/tags/vscode/"/>
-    
-    <category term="html" scheme="https://jinxlori.github.io/tags/html/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue public constants and methods</title>
-    <link href="https://jinxlori.github.io/2020/12/17/vue-public-constants-and-methods/"/>
-    <id>https://jinxlori.github.io/2020/12/17/vue-public-constants-and-methods/</id>
-    <published>2020-12-17T07:13:55.000Z</published>
-    <updated>2020-12-17T07:27:24.428Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在使用vue的过程中，会遇到一些可以复用或者多次调用的常量以及函数方法，为了减小代码量以及后期的维护，可以将这些常量方法实现共用。&lt;/p&gt;
-&lt;p&gt;方法有很多，这里记录一种自己比较常用的。&lt;/p&gt;
-&lt;h5 id=&quot;在src文件夹下创建utils文件夹&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
     
   </entry>
   
