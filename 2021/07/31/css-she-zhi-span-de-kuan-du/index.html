@@ -29,9 +29,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0">
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="鑫鑫鑫" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="鑫鑫鑫" type="application/atom+xml">
 </head>
 
 
@@ -610,7 +610,7 @@
 <p>在css2.1标准草案中display的定义中增加了一个叫<strong>inline-block</strong>的属性值，针对的恰好是我们面对的这种情形。那么再看看各种浏览器的对应情况。</p>
 <p>Firefox：通过display的文档了解到，inline-block在未来的Firefox 3中会实现。通过Mozllia扩展属性参考了解到，在Firefox 3以前的版本，例如现在的Firefox 2中，可以用-moz-inline-box达到同样的效果。</p>
 <p>IE：通过MSDN中的display文档了解到，inline-block已经实现。实际测试发现IE 6.0以后都没问题。</p>
-<h5 id="完美的解决span宽度问题的方案：inline-block"><a href="#完美的解决span宽度问题的方案：inline-block" class="headerlink" title="完美的解决span宽度问题的方案：inline-block"></a>完美的解决span宽度问题的方案：inline-block</h5><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span> <span class="token name">PUBLIC</span> <span class="token string">"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span class="token string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span><span class="token punctuation">&gt;</span></span>
+<h5 id="完美的解决span宽度问题的方案：inline-block"><a href="#完美的解决span宽度问题的方案：inline-block" class="headerlink" title="完美的解决span宽度问题的方案：inline-block"></a>完美的解决span宽度问题的方案：inline-block</h5><pre class="line-numbers language-html" data-language="html"><code class="language-html">g<span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span> <span class="token name">PUBLIC</span> <span class="token string">"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span class="token string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.w3.org/1999/xhtml<span class="token punctuation">"</span></span> <span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
 	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Test Span<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
@@ -735,48 +735,54 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/07/31/css-she-zhi-span-de-kuan-du/">
+                <a href="/2021/07/31/zai-el-row-zhong-xun-huan-xuan-ran-el-col-xi-wang-zi-dong-huan-xing-el-col-shu-ju-wei-kong-shi-bu-ju-hun-luan/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/14.jpg" class="responsive-img" alt="css 设置span的宽度">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/9.jpg" class="responsive-img" alt="在el-row中循环渲染el-col,希望自动换行，el-col数据为空时，布局混乱">
                         
-                        <span class="card-title">css 设置span的宽度</span>
+                        <span class="card-title">在el-row中循环渲染el-col,希望自动换行，el-col数据为空时，布局混乱</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            在默认的情况下，利用css样式对span进行宽度设定是无效，但有时为了某种排版的要求，需要对span进行宽度设定，那么如何在html中利用css样式设定span的宽度？
+                            在一个el-row标签中渲染多个el-col，希望能够达到自动换行的效果，当el-col没有数据时，布局会变得混乱.
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/css/" class="post-category">
-                                    css
+                            <a href="/categories/Element/" class="post-category">
+                                    Element
+                                </a>
+                            
+                            <a href="/categories/Element/Vue/" class="post-category">
+                                    Vue
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/css/">
-                        <span class="chip bg-color">css</span>
+                    <a href="/tags/Vue/">
+                        <span class="chip bg-color">Vue</span>
+                    </a>
+                    
+                    <a href="/tags/Element/">
+                        <span class="chip bg-color">Element</span>
                     </a>
                     
                 </div>
