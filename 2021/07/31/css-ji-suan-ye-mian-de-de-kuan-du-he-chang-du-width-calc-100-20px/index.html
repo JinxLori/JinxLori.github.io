@@ -29,9 +29,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="鑫鑫鑫" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="鑫鑫鑫" type="application/atom+xml">
 </head>
 
 
@@ -539,12 +539,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/css/">
+                                <span class="chip bg-color">css</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%9C%89%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E6%83%B3%E8%A6%81%E7%9A%84%E5%B0%B1%E6%98%AF%E9%87%8C%E9%9D%A2%E7%9A%84%E5%AE%BD%E5%BA%A6%E6%98%AF100-20%E7%9A%84%E5%AE%BD%E5%BA%A6%EF%BC%8C%E5%BE%88%E5%A4%9A%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E4%BC%9A%E7%94%A8JS%E6%9D%A5%E5%81%9A%EF%BC%8C%E5%85%B6%E5%AE%9E%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E7%94%A8css%E6%9D%A5%E5%81%9A%E3%80%82/" class="post-category">
+                                有时候我们想要的就是里面的宽度是100%-20的宽度，很多时候我们会用JS来做，其实我们可以用css来做。
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -577,7 +590,65 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h4 id="css—计算页面的的宽度和长度-width-calc-100-20px"><a href="#css—计算页面的的宽度和长度-width-calc-100-20px" class="headerlink" title="css—计算页面的的宽度和长度(width: calc(100% - 20px))"></a>css—计算页面的的宽度和长度(width: calc(100% - 20px))</h4><p>今天浏览这个<a target="_blank" rel="noopener" href="http://www.sitepoint.com站时,因为好奇看了下人家写的代码,结果发现了这行代码,/">http://www.sitepoint.com站时，因为好奇看了下人家写的代码，结果发现了这行代码，</a></p>
+<p><img src="https://img.jbzj.com/file_images/article/201803/2018322150209327.png?201822215222"></p>
+<p>于是就研究了一下，calc()从字面我们可以把他理解为一个函数function。其实calc是英文单词calculate(计算)的缩写，是css3的一个新增的功能，用来指定元素的长度。比如说，你可以使用calc()给元素的border、margin、pading、font-size和width等属性设置动态值。为何说是动态值呢?因为我们使用的表达式来得到的值。不过calc()最大的好处就是用在流体布局上，可以通过calc()计算得到元素的宽度。</p>
+<p>**calc()能做什么？<br>**</p>
+<p>calc()能让你给元素的做计算，你可以给一个div元素，使用百分比、em、px和rem单位值计算出其宽度或者高度，比如说“width:calc(50% + 2em)”，这样一来你就不用考虑元素DIV的宽度值到底是多少，而把这个烦人的任务交由浏览器去计算。</p>
+<p>**calc()语法<br>**</p>
+<p>calc()语法非常简单，就像我们小时候学加 （+）、减（-）、乘（*）、除（/）一样，使用数学表达式来表示：</p>
+<pre class="line-numbers language-none"><code class="language-none">width``: calc(expression);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>其中”expression”是一个表达式，用来计算长度的表达式。</p>
+<p><strong>calc()的运算规则</strong></p>
+<p>calc()使用通用的数学运算规则，但是也提供更智能的功能：</p>
+<ol>
+<li>使用“+”、“-”、“*” 和 “/”四则运算；</li>
+<li>可以使用百分比、px、em、rem等单位；</li>
+<li>可以混合使用各种单位进行计算；</li>
+<li>表达式中有“+”和“-”时，其前后必须要有空格，如”widht: calc(12%+5em)”这种没有空格的写法是错误的；</li>
+<li>表达式中有“*”和“/”时，其前后可以没有空格，但建议留有空格。</li>
+</ol>
+<p><strong>浏览器的兼容性</strong></p>
+<p><img src="https://img.jbzj.com/file_images/article/201803/2018322150309857.png?201822215319" alt="img"></p>
+<p>我们来个例子，我们做一个三列并排的模块，宽度按百分比、有padding值、有border值、还有margin-right，而且这三个值是px，</p>
+<pre class="line-numbers language-none"><code class="language-none">li{
+float:left;
+ 
+width:33.3333%;
+height:50px;
+ 
+padding:10px;
+margin-right:10px;
+ 
+background:#FF6666;
+border:5px solid #DAC8A7;
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>效果图：</p>
+<p><img src="https://img.jbzj.com/file_images/article/201803/2018322150358484.png?201822215410" alt="img"></p>
+<p>它是不会好好并列的，在这种情况下就不好算了，就算算出来也有那么一点误差，不是吗？现在我们就用到了calc(),</p>
+<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">li</span><span class="token punctuation">{</span>
+<span class="token property">float</span><span class="token punctuation">:</span>left<span class="token punctuation">;</span>
+ 
+//<span class="token property">width</span><span class="token punctuation">:</span>33.3333%<span class="token punctuation">;</span>
+<span class="token property">height</span><span class="token punctuation">:</span>50px<span class="token punctuation">;</span>
+ 
+<span class="token property">padding</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span>
+<span class="token property">margin-right</span><span class="token punctuation">:</span>15px<span class="token punctuation">;</span>
+ 
+<span class="token property">background</span><span class="token punctuation">:</span>#FF6666<span class="token punctuation">;</span>
+<span class="token property">border</span><span class="token punctuation">:</span>5px solid #DAC8A7<span class="token punctuation">;</span>
+ 
+<span class="token property">width</span><span class="token punctuation">:</span><span class="token function">calc</span><span class="token punctuation">(</span>33.3333% - <span class="token punctuation">(</span>10px + 5px<span class="token punctuation">)</span> * 2 - 15px <span class="token punctuation">)</span>
+ 
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>意思是(width-(padding+border)*2-margin)</p>
+<p>现在可以并排了</p>
+<p><img src="https://img.jbzj.com/file_images/article/201803/2018322150428118.png?201822215439" alt="img"></p>
+<p>好了，到这就告一段络了，再稍微优化一下左右边15px的空距，让两边都挨边。就在父级上加个margin-right：-15px，OK 搞定，</p>
+<p>现在拿这个去做响应模式应该很方便了，</p>
+<p>还有一篇外国人写的具体如何做大家有兴趣的可以了解一下<a target="_blank" rel="noopener" href="http://osvaldas.info/imitating-calc-fallback-fixed-width-sidebar-in-responsive-layout">http://osvaldas.info/imitating-calc-fallback-fixed-width-sidebar-in-responsive-layout</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jb51.net/css/604657.html">相关资源</a></p>
+
                 
             </div>
             <hr/>
@@ -640,7 +711,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/css/">
+                                    <span class="chip bg-color">css</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -682,39 +757,49 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/07/31/css-ji-suan-ye-mian-de-de-kuan-du-he-chang-du-width-calc-100-20px/">
+                <a href="/2021/07/31/es6-zhong-de-san-dian-yun-suan-fu-js-kuo-zhan-yun-suan-fu-de-yun-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/19.jpg" class="responsive-img" alt="css---计算页面的的宽度和长度(width: calc(100% - 20px))">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="es6 三点运算符_JavaScript ES6扩展运算符（...）用例">
                         
-                        <span class="card-title">css---计算页面的的宽度和长度(width: calc(100% - 20px))</span>
+                        <span class="card-title">es6 三点运算符_JavaScript ES6扩展运算符（...）用例</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            es6 三点运算符_JavaScript ES6扩展运算符（...）用例
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            wsh
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ES6/" class="post-category">
+                                    ES6
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ES6/">
+                        <span class="chip bg-color">ES6</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
