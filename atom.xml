@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-07-31T03:16:09.837Z</updated>
+  <updated>2021-07-31T03:28:43.499Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -17,11 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>css---计算页面的的宽度和长度(width: calc(100% - 20px))</title>
+    <link href="https://jinxlori.github.io/2021/07/31/css-ji-suan-ye-mian-de-de-kuan-du-he-chang-du-width-calc-100-20px/"/>
+    <id>https://jinxlori.github.io/2021/07/31/css-ji-suan-ye-mian-de-de-kuan-du-he-chang-du-width-calc-100-20px/</id>
+    <published>2021-07-31T03:28:43.000Z</published>
+    <updated>2021-07-31T03:28:43.499Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>img 和 span 在一行显示，如何垂直居中？</title>
+    <link href="https://jinxlori.github.io/2021/07/31/img-he-span-zai-yi-xing-xian-shi-ru-he-chui-zhi-ju-zhong/"/>
+    <id>https://jinxlori.github.io/2021/07/31/img-he-span-zai-yi-xing-xian-shi-ru-he-chui-zhi-ju-zhong/</id>
+    <published>2021-07-31T03:20:28.000Z</published>
+    <updated>2021-07-31T03:25:28.555Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;img-span在一行显示，如何垂直居中的问题-vertical-align-middle&quot;&gt;&lt;a href=&quot;#img-span在一行显示，如何垂直居中的问题-vertical-align-middle&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="css" scheme="https://jinxlori.github.io/categories/css/"/>
+    
+    
+    <category term="css" scheme="https://jinxlori.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在el-row中循环渲染el-col,希望自动换行，el-col数据为空时，布局混乱</title>
     <link href="https://jinxlori.github.io/2021/07/31/zai-el-row-zhong-xun-huan-xuan-ran-el-col-xi-wang-zi-dong-huan-xing-el-col-shu-ju-wei-kong-shi-bu-ju-hun-luan/"/>
     <id>https://jinxlori.github.io/2021/07/31/zai-el-row-zhong-xun-huan-xuan-ran-el-col-xi-wang-zi-dong-huan-xing-el-col-shu-ju-wei-kong-shi-bu-ju-hun-luan/</id>
     <published>2021-07-31T02:42:41.000Z</published>
-    <updated>2021-07-31T03:16:09.837Z</updated>
+    <updated>2021-07-31T03:24:54.351Z</updated>
     
     
       
@@ -460,60 +498,6 @@
         
         
     <summary type="html">&lt;p&gt;在使用vue时，我们常会利用vuex来集中管理组件的状态，例如用户登录状态，用户授权状态，又或者是其他的页面信息以及状态。但是当我们刷新页面，存在store/state中的信息就会被清空，为了用户体验以及请求开销，我们需要使用客户端来暂时存储这些信息，如localstora</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>json-server,指定一个json文件作为API数据源</title>
-    <link href="https://jinxlori.github.io/2020/12/30/json-server-zhi-ding-yi-ge-json-wen-jian-zuo-wei-api-shu-ju-yuan/"/>
-    <id>https://jinxlori.github.io/2020/12/30/json-server-zhi-ding-yi-ge-json-wen-jian-zuo-wei-api-shu-ju-yuan/</id>
-    <published>2020-12-30T08:19:29.000Z</published>
-    <updated>2021-01-12T14:23:28.776Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="tool" scheme="https://jinxlori.github.io/categories/tool/"/>
-    
-    <category term="json" scheme="https://jinxlori.github.io/categories/tool/json/"/>
-    
-    
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
-    
-    <category term="json" scheme="https://jinxlori.github.io/tags/json/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue接受base64转图片验证码</title>
-    <link href="https://jinxlori.github.io/2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/"/>
-    <id>https://jinxlori.github.io/2020/12/28/vue-jie-shou-base64-zhuan-tu-pian-yan-zheng-ma/</id>
-    <published>2020-12-28T08:19:29.000Z</published>
-    <updated>2021-01-12T13:28:28.557Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot;</summary>
         
       
     

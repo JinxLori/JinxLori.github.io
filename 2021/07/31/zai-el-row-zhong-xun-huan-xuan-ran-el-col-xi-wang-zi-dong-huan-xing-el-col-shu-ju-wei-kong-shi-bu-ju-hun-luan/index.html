@@ -600,7 +600,7 @@
             <div id="articleContent">
                 <h4 id="使用ElementUI的el-row，渲染多行的el-col，当数据为空时，布局显示混乱的解决方案"><a href="#使用ElementUI的el-row，渲染多行的el-col，当数据为空时，布局显示混乱的解决方案" class="headerlink" title="使用ElementUI的el-row，渲染多行的el-col，当数据为空时，布局显示混乱的解决方案"></a>使用ElementUI的el-row，渲染多行的el-col，当数据为空时，布局显示混乱的解决方案</h4><h5 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h5><p>大家可能在使用el-row el-col进行布局的时候，可能会出现没有数据，el-col没有占位，</p>
 <h5 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h5><p>因为有些人为了简单，把所有的el-col放在一个el-row内，如果只有<strong>display:flex</strong>，会把所有的el-col都挤在一行。</p>
-<p>加上**flex-wrap: wrap;**之后可以自动换行，和分开写在el-row每一行的一样。</p>
+<p>加上<strong>flex-wrap: wrap</strong>之后可以自动换行，和分开写在el-row每一行的一样。</p>
 <pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.el-row</span><span class="token punctuation">{</span>
     <span class="token property">display</span><span class="token punctuation">:</span>flex<span class="token punctuation">;</span>
     <span class="token property">flex-wrap</span><span class="token punctuation">:</span> wrap<span class="token punctuation">;</span>
@@ -720,56 +720,46 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/07/31/zai-el-row-zhong-xun-huan-xuan-ran-el-col-xi-wang-zi-dong-huan-xing-el-col-shu-ju-wei-kong-shi-bu-ju-hun-luan/">
+                <a href="/2021/07/31/img-he-span-zai-yi-xing-xian-shi-ru-he-chui-zhi-ju-zhong/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/9.jpg" class="responsive-img" alt="在el-row中循环渲染el-col,希望自动换行，el-col数据为空时，布局混乱">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/15.jpg" class="responsive-img" alt="img 和 span 在一行显示，如何垂直居中？">
                         
-                        <span class="card-title">在el-row中循环渲染el-col,希望自动换行，el-col数据为空时，布局混乱</span>
+                        <span class="card-title">img 和 span 在一行显示，如何垂直居中？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            在一个el-row标签中渲染多个el-col，希望能够达到自动换行的效果，当el-col没有数据时，布局会变得混乱.
+                            img 和 span 在同一行显示时，怎样达到垂直居中的效果(vertical-align:middle;)。多用于实现一些标签或者描述等...
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Element/" class="post-category">
-                                    Element
-                                </a>
-                            
-                            <a href="/categories/Element/Vue/" class="post-category">
-                                    Vue
+                            <a href="/categories/css/" class="post-category">
+                                    css
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Vue/">
-                        <span class="chip bg-color">Vue</span>
-                    </a>
-                    
-                    <a href="/tags/Element/">
-                        <span class="chip bg-color">Element</span>
+                    <a href="/tags/css/">
+                        <span class="chip bg-color">css</span>
                     </a>
                     
                 </div>
