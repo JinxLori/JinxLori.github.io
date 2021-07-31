@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2021-04-16T05:25:42.635Z</updated>
+  <updated>2021-07-31T02:23:12.932Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>css 设置span的宽度</title>
+    <link href="https://jinxlori.github.io/2021/07/31/css-she-zhi-span-de-kuan-du/"/>
+    <id>https://jinxlori.github.io/2021/07/31/css-she-zhi-span-de-kuan-du/</id>
+    <published>2021-07-31T02:10:05.000Z</published>
+    <updated>2021-07-31T02:23:12.932Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="css" scheme="https://jinxlori.github.io/categories/css/"/>
+    
+    
+    <category term="css" scheme="https://jinxlori.github.io/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue 常用知识</title>
@@ -499,31 +524,6 @@
     <category term="jeecg-boot" scheme="https://jinxlori.github.io/tags/jeecg-boot/"/>
     
     <category term="java" scheme="https://jinxlori.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>资源网站合集（持续更新）</title>
-    <link href="https://jinxlori.github.io/2020/12/19/zi-yuan-wang-zhan-he-ji/"/>
-    <id>https://jinxlori.github.io/2020/12/19/zi-yuan-wang-zhan-he-ji/</id>
-    <published>2020-12-19T08:19:29.000Z</published>
-    <updated>2021-01-26T09:27:52.993Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;综合网站：&quot;&gt;&lt;a href=&quot;#综合网站：&quot; class=&quot;headerlink&quot; title=&quot;综合网站：&quot;&gt;&lt;/a&gt;综合网站：&lt;/h3&gt;&lt;h4 id=&quot;Learn-X-in-Y-minutes&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="tool" scheme="https://jinxlori.github.io/categories/tool/"/>
-    
-    
-    <category term="tool" scheme="https://jinxlori.github.io/tags/tool/"/>
     
   </entry>
   
