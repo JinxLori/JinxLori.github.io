@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="es6 三点运算符_JavaScript ES6扩展运算符（...）用例, 鑫鑫鑫">
+    <meta name="keywords" content="2023测试, 鑫鑫鑫">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>es6 三点运算符_JavaScript ES6扩展运算符（...）用例 | 鑫鑫鑫</title>
+    <title>2023测试 | 鑫鑫鑫</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/libs/awesome/css/all.css">
@@ -420,12 +420,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">es6 三点运算符_JavaScript ES6扩展运算符（...）用例</h1>
+                    <h1 class="description center-align post-title">2023测试</h1>
                 </div>
             </div>
         </div>
@@ -539,25 +539,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/ES6/">
-                                <span class="chip bg-color">ES6</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/ES6/" class="post-category">
-                                ES6
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -566,7 +553,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-07-31
+                    2023-03-11
                 </div>
                 
 
@@ -590,51 +577,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h5 id="作用一："><a href="#作用一：" class="headerlink" title="作用一："></a>作用一：</h5><p><strong>在函数调用中，将剩余参数合并到一个数组中</strong></p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">showName</span><span class="token punctuation">(</span><span class="token parameter">firstName<span class="token punctuation">,</span> lastName<span class="token punctuation">,</span> <span class="token operator">...</span>titles</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> firstName <span class="token operator">+</span> <span class="token string">' '</span> <span class="token operator">+</span> lastName <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Julius Caesar</span>
-  <span class="token comment">// 剩余的参数被放入 titles 数组中</span>
-  <span class="token comment">// titles = ["Consul", "Imperator"]</span>
-  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> titles<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Consul</span>
-  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> titles<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Imperator </span>
-  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> titles<span class="token punctuation">.</span>length <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 2</span>
-<span class="token punctuation">}</span>
-<span class="token function">showName</span><span class="token punctuation">(</span><span class="token string">"Julius"</span><span class="token punctuation">,</span> <span class="token string">"Caesar"</span><span class="token punctuation">,</span> <span class="token string">"Consul"</span><span class="token punctuation">,</span> <span class="token string">"Imperator"</span><span class="token punctuation">)</span>
-<span class="token keyword">function</span> <span class="token function">allName</span><span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span> <span class="token comment">// ["王", "二"]</span>
-<span class="token punctuation">}</span>
-<span class="token function">allName</span><span class="token punctuation">(</span><span class="token string">'王'</span><span class="token punctuation">,</span><span class="token string">'二'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="作用二："><a href="#作用二：" class="headerlink" title="作用二："></a>作用二：</h5><p><strong>数组添加</strong></p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">let</span> arr1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span>
-<span class="token keyword">let</span> arr2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
-arr1<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token operator">...</span>arr2<span class="token punctuation">)</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr1<span class="token punctuation">)</span> <span class="token comment">// [1, 2, 3, 4, 5, 6]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="作用三："><a href="#作用三：" class="headerlink" title="作用三："></a>作用三：</h5><p><strong>数组合并</strong></p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">let</span> arr1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span><span class="token string">'b'</span><span class="token punctuation">,</span><span class="token string">'c'</span><span class="token punctuation">]</span>
-<span class="token keyword">let</span> arr2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'d'</span><span class="token punctuation">,</span><span class="token string">'e'</span><span class="token punctuation">,</span><span class="token string">'f'</span><span class="token punctuation">]</span>
-<span class="token keyword">let</span> arr3 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'h'</span><span class="token punctuation">,</span><span class="token string">'i'</span><span class="token punctuation">,</span><span class="token string">'j'</span><span class="token punctuation">]</span>
-<span class="token keyword">let</span> allArr1 <span class="token operator">=</span> arr1<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span>arr2<span class="token punctuation">,</span>arr3<span class="token punctuation">)</span>  <span class="token comment">// concat不会改变原数组</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>allArr1<span class="token punctuation">)</span> <span class="token comment">// ["a", "b", "c", "d", "e", "f", "h", "i", "j"]</span>
-<span class="token keyword">let</span> allArr2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token operator">...</span>arr1<span class="token punctuation">,</span> <span class="token operator">...</span>arr2<span class="token punctuation">,</span> <span class="token operator">...</span>arr3<span class="token punctuation">]</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>allArr2 <span class="token punctuation">)</span> <span class="token comment">// ["a", "b", "c", "d", "e", "f", "h", "i", "j"]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="作用四："><a href="#作用四：" class="headerlink" title="作用四："></a>作用四：</h5><p><strong>将字符串装换为数组</strong></p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">'hello'</span>
-<span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token operator">...</span>str<span class="token punctuation">]</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token comment">// ["h", "e", "l", "l", "o"]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h5 id="作用五："><a href="#作用五：" class="headerlink" title="作用五："></a>作用五：</h5><p>获取数组最大值时修改数组数据类型传入Math.max</p>
-<pre class="line-numbers language-none"><code class="language-none">let arr = [3, 5, 1];
-console.log(Math.max(arr))// NaN
-console.log(Math.max(...arr)) // 5<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h5 id="作用六："><a href="#作用六：" class="headerlink" title="作用六："></a>作用六：</h5><p><strong>对象合并</strong></p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">let</span> obj1 <span class="token operator">=</span> <span class="token punctuation">{</span>
-	a<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-	b<span class="token operator">:</span> <span class="token number">2</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">let</span> obj2 <span class="token operator">=</span> <span class="token punctuation">{</span>
-	<span class="token operator">...</span>obj1<span class="token punctuation">,</span>
-	c<span class="token operator">:</span> <span class="token number">3</span>
-<span class="token punctuation">}</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj2<span class="token punctuation">)</span> <span class="token comment">// {a: 1, b: 2, c: 3}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <p>test</p>
 
                 
             </div>
@@ -661,7 +604,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jinxlori.github.io/2021/07/31/es6-zhong-de-san-dian-yun-suan-fu-js-kuo-zhan-yun-suan-fu-de-yun-yong/">https://jinxlori.github.io/2021/07/31/es6-zhong-de-san-dian-yun-suan-fu-js-kuo-zhan-yun-suan-fu-de-yun-yong/</a>
+                    <a href="https://jinxlori.github.io/2023/03/11/2023-ce-shi/">https://jinxlori.github.io/2023/03/11/2023-ce-shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -698,11 +641,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/ES6/">
-                                    <span class="chip bg-color">ES6</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -744,49 +683,39 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/07/31/css-zi-gua-ying-shi-xian-tu-biao-you-shang-jiao-xiao-xi-shu-zi-ti-shi/">
+                <a href="/2023/03/11/2023-ce-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="CSS自适应实现图标右上角消息数字提示">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/9.jpg" class="responsive-img" alt="2023测试">
                         
-                        <span class="card-title">CSS自适应实现图标右上角消息数字提示</span>
+                        <span class="card-title">2023测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            CSS自适应实现图标右上角消息数字提示,实现右上角的角标展示。
+                            
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-11
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/css/" class="post-category">
-                                    css
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            wsh
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/css/">
-                        <span class="chip bg-color">css</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -797,31 +726,31 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/07/31/css-ji-suan-ye-mian-de-de-kuan-du-he-chang-du-width-calc-100-20px/">
+                <a href="/2022/07/31/es6-zhong-de-san-dian-yun-suan-fu-js-kuo-zhan-yun-suan-fu-de-yun-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/19.jpg" class="responsive-img" alt="css---计算页面的的宽度和长度(width: calc(100% - 20px))">
+                        <img src="https://cdn.jsdelivr.net/gh/JinxLori/JinxLori.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="es6 三点运算符_JavaScript ES6扩展运算符（...）用例">
                         
-                        <span class="card-title">css---计算页面的的宽度和长度(width: calc(100% - 20px))</span>
+                        <span class="card-title">es6 三点运算符_JavaScript ES6扩展运算符（...）用例</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            css
+                            es6 三点运算符_JavaScript ES6扩展运算符（...）用例
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-31
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-31
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%9C%89%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E6%83%B3%E8%A6%81%E7%9A%84%E5%B0%B1%E6%98%AF%E9%87%8C%E9%9D%A2%E7%9A%84%E5%AE%BD%E5%BA%A6%E6%98%AF100-20%E7%9A%84%E5%AE%BD%E5%BA%A6%EF%BC%8C%E5%BE%88%E5%A4%9A%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E4%BC%9A%E7%94%A8JS%E6%9D%A5%E5%81%9A%EF%BC%8C%E5%85%B6%E5%AE%9E%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E7%94%A8css%E6%9D%A5%E5%81%9A%E3%80%82/" class="post-category">
-                                    有时候我们想要的就是里面的宽度是100%-20的宽度，很多时候我们会用JS来做，其实我们可以用css来做。
+                            <a href="/categories/ES6/" class="post-category">
+                                    ES6
                                 </a>
                             
                             
@@ -831,8 +760,8 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/css/">
-                        <span class="chip bg-color">css</span>
+                    <a href="/tags/ES6/">
+                        <span class="chip bg-color">ES6</span>
                     </a>
                     
                 </div>
@@ -1064,7 +993,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2021</span>
+                <span id="year">2019-2023</span>
             
             <span id="year">2019</span>
             <a href="/about" target="_blank">wsh</a>
