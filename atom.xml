@@ -6,7 +6,7 @@
   <link href="https://jinxlori.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinxlori.github.io/"/>
-  <updated>2023-03-11T02:28:37.083Z</updated>
+  <updated>2023-04-07T08:16:12.040Z</updated>
   <id>https://jinxlori.github.io/</id>
   
   <author>
@@ -17,11 +17,92 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>IDEA java出现无效的源发行版14</title>
+    <link href="https://jinxlori.github.io/2023/04/07/idea-java-chu-xian-wu-xiao-de-yuan-fa-xing-ban-14/"/>
+    <id>https://jinxlori.github.io/2023/04/07/idea-java-chu-xian-wu-xiao-de-yuan-fa-xing-ban-14/</id>
+    <published>2023-04-07T08:08:29.000Z</published>
+    <updated>2023-04-07T08:16:12.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;搭建完Springboot项目后，运行，出现一下错误，&lt;/p&gt;
+&lt;p&gt;一、原因&lt;/p&gt;
+&lt;p&gt;出现这个问题的原因是在使用idea搭建完springboot&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="问题" scheme="https://jinxlori.github.io/categories/%E9%97%AE%E9%A2%98/"/>
+    
+    
+    <category term="IDEA Java" scheme="https://jinxlori.github.io/tags/IDEA-Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot学习记录</title>
+    <link href="https://jinxlori.github.io/2023/04/07/2023-04-068-springboot-zhu-jie-yi-ji-pei-zhi-ji-lu/"/>
+    <id>https://jinxlori.github.io/2023/04/07/2023-04-068-springboot-zhu-jie-yi-ji-pei-zhi-ji-lu/</id>
+    <published>2023-04-07T03:14:18.892Z</published>
+    <updated>2023-04-10T03:01:25.398Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;注解&quot;&gt;&lt;a href=&quot;#注解&quot; class=&quot;headerlink&quot; title=&quot;注解&quot;&gt;&lt;/a&gt;注解&lt;/h3&gt;&lt;h4 id=&quot;SpringBootApplication&quot;&gt;&lt;a href=&quot;#SpringBootApplication&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SpringBoot" scheme="https://jinxlori.github.io/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://jinxlori.github.io/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端面试题集合</title>
+    <link href="https://jinxlori.github.io/2023/03/11/qian-duan-mian-shi-ti-ji-he/"/>
+    <id>https://jinxlori.github.io/2023/03/11/qian-duan-mian-shi-ti-ji-he/</id>
+    <published>2023-03-11T08:19:29.000Z</published>
+    <updated>2023-03-11T08:21:47.187Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;position包含几种属性？absolute和relative的区别？&quot;&gt;&lt;a href=&quot;#position包含几种属性？absolute和relative的区别？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
+    
+    <category term="面试" scheme="https://jinxlori.github.io/categories/vue/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
+    
+    <category term="面试" scheme="https://jinxlori.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2023测试</title>
     <link href="https://jinxlori.github.io/2023/03/11/2023-ce-shi/"/>
     <id>https://jinxlori.github.io/2023/03/11/2023-ce-shi/</id>
     <published>2023-03-11T02:28:17.000Z</published>
-    <updated>2023-03-11T02:28:37.083Z</updated>
+    <updated>2023-03-11T05:12:54.608Z</updated>
     
     
       
@@ -450,78 +531,6 @@
     
     
     <category term="Android" scheme="https://jinxlori.github.io/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>优化Vue项目文件大小，提升页面加载速度</title>
-    <link href="https://jinxlori.github.io/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/"/>
-    <id>https://jinxlori.github.io/2021/01/29/you-hua-vue-xiang-mu-wen-jian-da-xiao-ti-sheng-ye-mian-jia-zai-su-du/</id>
-    <published>2021-01-29T02:58:05.000Z</published>
-    <updated>2021-03-12T15:52:36.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;优化Vue项目的文件大小&quot;&gt;&lt;a href=&quot;#优化Vue项目的文件大小&quot; class=&quot;headerlink&quot; title=&quot;优化Vue项目的文件大小&quot;&gt;&lt;/a&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对Vue的SEO搜索引擎优化</title>
-    <link href="https://jinxlori.github.io/2021/01/28/dui-vue-de-seo-sou-suo-yin-qing-you-hua/"/>
-    <id>https://jinxlori.github.io/2021/01/28/dui-vue-de-seo-sou-suo-yin-qing-you-hua/</id>
-    <published>2021-01-28T07:39:38.000Z</published>
-    <updated>2021-03-12T15:52:20.691Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://my.oschina.net/u/4360442/blog/3229414&quot;&gt;https://my.oschina.net/u/4360442/blog/3229414&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/categories/vue/"/>
-    
-    
-    <category term="vue" scheme="https://jinxlori.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>springboot结合mybatis实现在jeecgboot中的自定义接口</title>
-    <link href="https://jinxlori.github.io/2021/01/20/springboot-jie-he-mybatis-shi-xian-zai-jeecgboot-zhong-de-zi-ding-yi-jie-kou/"/>
-    <id>https://jinxlori.github.io/2021/01/20/springboot-jie-he-mybatis-shi-xian-zai-jeecgboot-zhong-de-zi-ding-yi-jie-kou/</id>
-    <published>2021-01-20T03:05:07.000Z</published>
-    <updated>2021-01-20T03:09:41.728Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
